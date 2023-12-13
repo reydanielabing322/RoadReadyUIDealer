@@ -12,6 +12,21 @@
         android:theme="@style/Theme.RoadReady"
         tools:targetApi="31">
         <activity
+            android:name=".BuyerHome"
+            android:exported="false" />
+        <activity
+            android:name=".DealerHome"
+            android:exported="false" />
+        <activity
+            android:name=".SignupDealership"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

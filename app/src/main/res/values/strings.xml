@@ -5,4 +5,8 @@
     <string name="eclipse">TODO</string>
     <string name="todo">TODO</string>
     <string name="Logo">logo</string>
+    <string-array name="numbers">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
 </resources>
