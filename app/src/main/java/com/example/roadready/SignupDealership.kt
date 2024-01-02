@@ -8,9 +8,10 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.Spinner
+import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
-class SignupDealership : Login() {
+class SignupDealership : AppCompatActivity() {
     private val spinner: Spinner? = null
     private var lgnBtn2: Button? = null
     private var sgnupBtn: Button? = null

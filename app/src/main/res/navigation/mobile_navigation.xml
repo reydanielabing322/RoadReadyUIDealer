@@ -23,10 +23,15 @@
         android:label="Registration Progress"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
-        android:id="@+id/profile"
-        android:name="com.example.roadready.Profile"
-        android:label="          Profile"
-        tools:layout="@layout/fragment_profile" />
+        android:id="@+id/profile1"
+        android:name="com.example.roadready.profile1"
+        android:label="fragment_profile1"
+        tools:layout="@layout/fragment_profile1" />
+    <fragment
+        android:id="@+id/approvedlist12"
+        android:name="com.example.roadready.approvedlist1"
+        android:label="fragment_approvedlist1"
+        tools:layout="@layout/fragment_approvedlist1" />
 
 
 </navigation>

@@ -16,6 +16,8 @@ open class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        signupBtn = findViewById<View>(R.id.signupBtn) as Button
+        signupBtn!!.setOnClickListener { openSignup() }
         email = findViewById<View>(R.id.email) as EditText
         passEditText = findViewById<View>(R.id.passEditText) as EditText
         lgnBtn = findViewById<View>(R.id.lgnBtn) as Button
@@ -28,8 +30,7 @@ open class Login : AppCompatActivity() {
                 Toast.makeText(this@Login, "Invalid Input", Toast.LENGTH_LONG).show()
             }
         }
-        signupBtn = findViewById<View>(R.id.signupBtn) as Button
-        signupBtn!!.setOnClickListener { openSignup() }
+
     }
 
     fun openSignup() {

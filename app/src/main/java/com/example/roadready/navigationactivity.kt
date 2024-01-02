@@ -25,7 +25,7 @@ class navigationactivity : AppCompatActivity() {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_fapproval, R.id.nav_regprog)
+                R.id.nav_home, R.id.nav_fapproval, R.id.nav_regprog,R.id.profile1,R.id.approvedlist12)
                 .setOpenableLayout(drawer)
                 .build()
         val navController = findNavController(this, R.id.nav_host_fragment_content_navigationactivity)
