@@ -25,13 +25,28 @@
     <fragment
         android:id="@+id/profile1"
         android:name="com.example.roadready.profile1"
-        android:label="fragment_profile1"
+        android:label="                     Profile"
         tools:layout="@layout/fragment_profile1" />
     <fragment
         android:id="@+id/approvedlist12"
         android:name="com.example.roadready.approvedlist1"
-        android:label="fragment_approvedlist1"
+        android:label="                Approved List"
         tools:layout="@layout/fragment_approvedlist1" />
+    <fragment
+        android:id="@+id/notification2"
+        android:name="com.example.roadready.notifications"
+        android:label="            Notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/bank"
+        android:name="com.example.roadready.Bank"
+        android:label="              Bank"
+        tools:layout="@layout/fragment_bank" />
+    <fragment
+        android:id="@+id/lto2"
+        android:name="com.example.roadready.lto"
+        android:label="fragment_lto"
+        tools:layout="@layout/fragment_lto" />
 
 
 </navigation>

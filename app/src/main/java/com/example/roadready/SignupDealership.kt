@@ -18,8 +18,7 @@ class SignupDealership : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup_dealership)
-        sgnupBtn = findViewById<View>(R.id.sgnupBtn) as Button
-        sgnupBtn!!.setOnClickListener { openDealerHome() }
+
         val gender = Arrays.asList("Gender", "Male", "Female")
         val spinner = findViewById<Spinner>(R.id.spinner)
         val adapter: ArrayAdapter<*> = ArrayAdapter<Any?>(applicationContext, android.R.layout.simple_spinner_item, gender as List<Any?>)
@@ -32,7 +31,8 @@ class SignupDealership : AppCompatActivity() {
 
             override fun onNothingSelected(adapterView: AdapterView<*>?) {}
         }
-
+        sgnupBtn = findViewById<View>(R.id.sgnupBtn) as Button
+        sgnupBtn!!.setOnClickListener { openDealerHome() }
 
         lgnBtn2 = findViewById<View>(R.id.lgnBtn2) as Button
         lgnBtn2!!.setOnClickListener { openLogin() }
