@@ -8,24 +8,24 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.roadready.ui.home.HomeFragment"
-        android:label="            My Vehicles"
+        android:label="                    My Vehicles"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_fapproval"
         android:name="com.example.roadready.ui.gallery.GalleryFragment"
-        android:label="For Approval"
+        android:label="                For Approval"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_regprog"
         android:name="com.example.roadready.ui.slideshow.SlideshowFragment"
-        android:label="Registration Progress"
+        android:label="      Registration Progress"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/profile1"
         android:name="com.example.roadready.profile1"
-        android:label="                     Profile"
+        android:label="                      Profile"
         tools:layout="@layout/fragment_profile1" />
     <fragment
         android:id="@+id/approvedlist12"
@@ -35,17 +35,17 @@
     <fragment
         android:id="@+id/notification2"
         android:name="com.example.roadready.notifications"
-        android:label="            Notifications"
+        android:label="                Notifications"
         tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/bank"
         android:name="com.example.roadready.Bank"
-        android:label="              Bank"
+        android:label="                    Bank"
         tools:layout="@layout/fragment_bank" />
     <fragment
         android:id="@+id/lto2"
         android:name="com.example.roadready.lto"
-        android:label="fragment_lto"
+        android:label="        Land Transportation Office"
         tools:layout="@layout/fragment_lto" />
 
 
